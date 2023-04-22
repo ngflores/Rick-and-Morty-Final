@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-image: url(https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2021/07/13/16261857986741.jpg);
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  header {
+    background-color: rgba(115, 253, 24, 0.445);
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  img {
+    width:400px;
+    border-radius: 20px;
+  }
+  header ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: 
+  }
+  header li {
+      font-size: 20px;
+      font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+      padding: 15px;
+      margin: 5px;
+      margin: 10px;
+    }
+  nav ul li a {
+    background-color: rgba(35, 227, 241, 0.418);
+    padding: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(240, 9, 9);
+  }
+  main {
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .synopsis {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .synopsis {
+    background-color: rgba(255, 127, 80, 0.548);
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-direction: row;
+    line-height: 1.5;
+    border-radius: 20px;
+  }
+  .synopsis img {
+    width: 600px;
+    border-radius: 10px;
+  }
+  .synopsis div h2 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: rgb(102, 238, 11);
+    font-size: 40px;
+    align-items: center;
+  }
+  .synopsis p {
+    background-color: rgba(255, 238, 0, 0.24);
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    line-height: 1.5;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 28px;
+    text-align: justify;
+  }
+  .synopsis h3 {
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    text-align: center;
+  }
+  .characters h2 {
+    background-color: rgba(35, 227, 241, 0.486);
+    padding: 30px;
+    margin-top: 10px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: xx-large;
+    color: rgb(102, 238, 11);
+    text-align: center;
+    border-radius: 20px;
+  }
+  /*JS*/
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .card-container div {
+    background-color: rgba(255, 127, 80, 0.664);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+  }
+  .card-container div img {
+    width: 200px;
+    border-radius: 50%;
+  }
+  .card-container div p {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: large;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .streaming {
+    background-color: rgba(109, 240, 196, 0.479);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  .streaming img {
+    width: 200px;
+    padding: 20px;
+    border-radius: 50%;
+  }
+  .streaming a {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: xx-large;
+     text-decoration: none;
+  }
+  .streaming p {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: xx-large;
+    background-color: rgba(35, 227, 241, 0.418);
+    padding: 20px;
+    border-radius: 20px;
+  }
+  footer {
+    background-image: url(https://images.ctfassets.net/t11jt6iul2n5/ys4KvcRUjeig0cC2yk6yO/dd17c10d46b207d2d30d7dd0a1d597f1/rickmorty.jpeg?w=960&h=533&fl=progressive&q=50&fm=jpg);
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+  }
+  .data-left {
+    display: flex;
+    background-color: rgba(122, 206, 38, 0.527);
+    border-radius: 20%;
+    text-align: center;
+    padding: 10px;
+    flex-direction: column;
+    gap: 10px;
+  }
+  footer img {
+    background-color: rgba(122, 206, 38, 0.527);
+    border-radius: 40px;
+    width: 500px;
+    padding: 10px;
+  }
+  footer nav a {
+    text-align: center;
+  }
+  footer section nav ul {
+    background-color: rgba(122, 206, 38, 0.527);
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    
+  }
+  footer section nav ul li {
+    background-color: rgba(122, 206, 38, 0.527);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    margin: 10px;
+    padding: 10px;
+    flex-direction: column;
+    text-decoration: none;
+  }
+  footer section nav ul a {
+    list-style: none;
+  }
+  @media (max-width: 480px) {
+    header, .sinopsis, .streaming, footer {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
